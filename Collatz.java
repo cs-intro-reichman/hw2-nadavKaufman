@@ -9,7 +9,7 @@ public class Collatz {
         for (int i = 1; i <= N; i++)
         {
             int s = i;
-            int count = 0;
+            int count = 1;
 
             if (verbose) {
                 System.out.print(s + " ");
